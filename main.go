@@ -28,5 +28,5 @@ func main() {
 	ctrl.Savety(router.Group("/savety"))
 	ctrl.Saveunit(router.Group("/saveunit"))
 	ctrl.SaveNodeMCU(router.Group("/nodemcu"))
-	router.Run(":8888")
+	router.Run(":80")
 }
